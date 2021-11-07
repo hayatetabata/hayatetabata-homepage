@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Hayate Tabata
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman ( Developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -60,7 +60,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/takuya.jpg"
+            src="/images/hayate.jpg"
             alt="Profile image"
           />
         </Box>
@@ -71,14 +71,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hayate is a freelance and a full-stack developer based in Osaka with a
+          Hayate is a php and javascript developer based in Tokyo with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
+          hanging out with his gaming controller. Currently, he is living off of his own
           product called{' '}
-          <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
+          <NextLink href="">
+            <Link>Coming Soon..</Link>
           </NextLink>
           .
         </Paragraph>
@@ -96,22 +96,22 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>1997</BioYear>
+          Born in Nagano (長野), Japan.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2015</BioYear>
+          Graduated from Waseda University Senior High School
+          (早稲田大学高等学院)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2020</BioYear>
+          Graduated from School of Commerce, Waseda University in Japan
+          (早稲田大学商学部)
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>2020 to present</BioYear>
+          Works at Fez Inc. (株式会社フェズ)
         </BioSection>
       </Section>
 
@@ -120,15 +120,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Gaming, Animation, Manga
         </Paragraph>
       </Section>
 
@@ -138,57 +130,57 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/hayatetabata" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @hayatetabata
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/hayate_tabata" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @inkdrop_app
+                @hayate_tabata
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @craftzdog
+                @Coming soon...
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/hayate_tabata" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @craftzdog
+                @hayate_tabata
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://discord.gg/QfsG5Kj" target="_blank">
+            <Link href="" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoDiscord} />}
               >
-                Discord
+                Coming soon...
               </Button>
             </Link>
           </ListItem>
@@ -197,17 +189,17 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            title="Coming soon..."
             thumbnail={thumbYouTube}
           >
-            My YouTube channel
+            Coming soon...
           </GridItem>
           <GridItem
             href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            title="Coming soon..."
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            Coming soon...
           </GridItem>
         </SimpleGrid>
 
